@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)switchAccion:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *switchElemento;
+
 @end
